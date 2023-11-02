@@ -1,0 +1,35 @@
+.fundo {
+     background-image: linear-gradient(to right, transparent, RGB(50,50,50));}
+.form{
+     width: 400px; 
+     height: 450px;
+     background-color: darkgray;
+     border-radius: 35px;
+     margin: 0 auto;
+     margin-top: 50px;
+     text-align: center;
+}
+.form img{
+     width: 150px;
+     height: 150px;
+     margin-top: -60px;
+     margin-bottom: 30px;
+
+}
+/*width=LARGURA;
+height=ALTURA
+border-radius= CURVATURA DA BORDA
+margin-top= TOPO DA MARGEM
+padding= INTERIOR
+margin= EXTERIOR*/
+.campo{
+     height: 40px;
+     width: 80%;
+     font-size: 18px;
+     margin-bottom: 10px;
+     background-color: aliceblue;
+     border: 1px solid;
+     border-radius: 35px;
+     padding-left: 10px;
+
+}
