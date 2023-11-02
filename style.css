@@ -1,9 +1,11 @@
 .fundo {
-     background-image: linear-gradient(to right, transparent, RGB(50,50,50));}
+     background-image: linear-gradient(to top,black, rgb(0, 225, 255), transparent);
+background-attachment: fixed;
+}
 .form{
      width: 400px; 
-     height: 450px;
-     background-color: darkgray;
+     height: 550px;
+     background-color: rgb(255, 255, 255);
      border-radius: 35px;
      margin: 0 auto;
      margin-top: 50px;
@@ -27,9 +29,23 @@ margin= EXTERIOR*/
      width: 80%;
      font-size: 18px;
      margin-bottom: 10px;
-     background-color: aliceblue;
+     background-color: rgb(255, 255, 255);
      border: 1px solid;
      border-radius: 35px;
      padding-left: 10px;
 
 }
+.img-fluida {
+     max-width: 100%;
+     height: 600px;
+      }
+      .carousel {
+          width: 100%;
+          max-width: 1200px; 
+          margin: 0 auto; 
+          overflow: hidden;
+        }
+        .carousel-item {
+          width: 100%; 
+        }
+                
