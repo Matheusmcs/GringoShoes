@@ -70,7 +70,7 @@ margin= EXTERIOR*/
 
 .slide {
 	width: 25%;
-	position: relative;
+	position: tittle;
 }
 
 .slide img {
@@ -176,11 +176,25 @@ margin= EXTERIOR*/
 	margin-top:10pc ;
 	padding: 0;
 	width: 100%;
+	height: 0vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif Old Uyghur', serif;
+color: white;
+position:relative;
+}
+.tittle {
+	margin-top:10pc ;
+	padding: 0;
+	width: 100%;
 	height: 5vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Serif Old Uyghur', serif;
-
+color: white;
+position:relative;
 }
